@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Formulário</title>
+</head>
+<body>
+	<main>
+		<div class="col">
+			<h1>FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+			<p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.</p>
+		</div>
+		<form id="form">
+			<input type="text" name="nome" placeholder="Nome *" class="inptP nome">
+				<span class="obrigatorio" id="nObg">campo obrigatório</span>
+			<input type="email" name="email" placeholder="email *" class="inptP email">
+				<span class="obrigatorio" id="eObg">campo obrigatório</span>
+			<input type="text" name="phone" placeholder="(00) 0 0000-0000 *" class="inptP phone">
+				<span class="obrigatorio" id="pObg">campo obrigatório</span>
+			<input type="text" name="mensagem" placeholder="Mensagem *" class="msg">
+				<span class="obrigatorio" id="mObg">campo obrigatório</span>
+
+			<p>* campo obrigatório</p>
+			<input type="button" name="Enviar" value="Enviar" class="enviar">
+		</form>
+	</main>	
+	<script src="script.js"></script>
+
+</body>
+</html>
